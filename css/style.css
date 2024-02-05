@@ -1,0 +1,23 @@
+.calc-wrap{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background: #dedede;
+    align-items: center;
+
+    .calc-box{
+        width: 360px;
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 10px;
+
+
+        .resultBox{
+            padding: 30px;
+            border: 1px solid #dedede;
+            text-align: center;
+            border-radius: 10px;
+        }
+    }
+}
+
